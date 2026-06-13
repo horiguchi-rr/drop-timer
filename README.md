@@ -6,7 +6,7 @@
 
 ## 公開URL
 
-https://ユーザー名.github.io/drop-timer/
+https://horiguchi-rr.github.io/drop-timer/
 
 ## 主な機能
 
