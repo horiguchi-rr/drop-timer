@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #171722;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-area {
+  padding: 16px;
+  margin-bottom: 24px;
+  background-color: #242436;
+  border-radius: 12px;
+
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+#stageName {
+  flex: 1;
+}
+
+#minutes,
+#seconds {
+  width: 80px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+#newTimerBtn {
+  background-color: #4caf50;
+}
+
+.timer-card {
+  background-color: #2d2d44;
+  padding: 18px;
+  margin-bottom: 14px;
+  border-radius: 14px;
+  border: 2px solid transparent;
+}
+
+.timer-card h2 {
+  margin-top: 0;
+}
+
+.time {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.status {
+  color: #ffd54f;
+}
+
+.startBtn {
+  background-color: #2196f3;
+}
+
+.resetBtn {
+  background-color: #ff9800;
+}
+
+.deleteBtn {
+  background-color: #f44336;
+}
+
+.done {
+  border-color: #ffd54f;
+  background-color: #3a3320;
+}
+
+.done .time {
+  color: #ffd54f;
+}
+
+@media (max-width: 700px) {
+  .input-area {
+    flex-direction: column;
+  }
+
+  #stageName,
+  #minutes,
+  #seconds,
+  #newTimerBtn {
+    width: 100%;
+  }
+
+  .timer-card {
+    text-align: center;
+  }
+
+  .timer-card button {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
